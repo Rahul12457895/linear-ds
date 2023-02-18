@@ -1,0 +1,17 @@
+x= []
+z= "abc*d/+ed*-"
+for i in range(len(z)):
+    if z[i] == 'a' or z[i] =='b' or z[i] =='c' or z[i] =='d' or z[i] == 'l' or z[i] == 'k' or z[i] == 'e' or z[i] == 'f' or z[i] == 'g' or z[i] == 'h' or z[i] == 'i' or z[i] == 'j' or z[i] == 'm' or z[i] == 'n' or z[i] == 'o' or z[i] == 'p' or z[i] == 'q' or z[i] == 'r' or z[i] == 's' or z[i] == 't' or z[i] == 'u' or z[i] == 'v' or z[i] == 'w' or z[i] == 'x' or z[i] == 'y' or z[i] == 'z' or z[i] == 'A' or z[i] =='B' or z[i] =='C' or z[i] =='D' or z[i] == 'L' or z[i] == 'K' or z[i] == 'E' or z[i] == 'F' or z[i] == 'G' or z[i] == 'H' or z[i] == 'I' or z[i] == 'J' or z[i] == 'M' or z[i] == 'N' or z[i] == 'O' or z[i] == 'P' or z[i] == 'Q' or z[i] == 'R' or z[i] == 'S' or z[i] == 'T' or z[i] == 'U' or z[i] == 'V' or z[i] == 'W' or z[i] == 'X' or z[i] == 'Y' or z[i] == 'Z':
+        x.append(z[i])
+    else:
+        pp= x[-2]
+        x.pop(-2)
+        pp1=x[-1]
+        x.pop()
+        T=z[i]+pp+pp1
+        x.append(T)
+for j in x:
+    print(j)
+        
+
+

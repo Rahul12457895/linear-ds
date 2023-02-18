@@ -1,0 +1,11 @@
+x= input("enter a string 1: ")
+y= input("enter a string 2: ")
+z= " "
+if len(x)!=len(y):
+    print("its not a rotation array")
+else:
+    z= x+x
+    if y in z:
+        print("its a rotation array")
+    else:
+        print("its not a rotation array")

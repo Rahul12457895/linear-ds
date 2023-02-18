@@ -1,0 +1,9 @@
+x= [22,33,1,45]
+y= []
+
+while(len(x)!=0):
+    s= x[-1]
+    x.pop()
+    y.append(s)
+print(y)
+    

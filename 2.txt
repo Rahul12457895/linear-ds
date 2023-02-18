@@ -1,0 +1,6 @@
+def reverseList(A):
+  print( A[::-1])
+A = [11, 32, 35, 64, 75, 36]
+print(A)
+print("Reversed list is")
+reverseList(A)

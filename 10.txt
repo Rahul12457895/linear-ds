@@ -1,0 +1,20 @@
+x= [0,12,223,22,33,45,1]
+
+y= []
+a=x[-1]
+x.pop()
+y.append(a)
+
+z = []
+b= x[-1]
+x.pop()
+z.append(b)
+while(len(x)!=0):
+    m =x[-1]
+    if m>y[-1]:
+        z.append(m)
+        x.pop()
+    else:
+        y.append(m)
+        x.pop()
+print("the smallest number of the stack is: ",y[-1])
